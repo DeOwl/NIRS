@@ -48,14 +48,14 @@ plt.xlabel("Iteration")
 plt.ylabel("Objective function value")
 plt.ion()
 
-normal_train_data = np.load('data/normal_train_data.npy')
-normal_test_data = np.load('data/normal_test_data.npy')
-anomalous_train_data = np.load('data/anomalous_train_data.npy')
-anomalous_test_data = np.load('data/anomalous_test_data.npy')
-train_data = np.load('data/train_data.npy')
-test_data = np.load('data/test_data.npy')
-train_labels = np.load('data/train_labels.npy')
-test_labels = np.load('data/test_labels.npy')
+normal_train_data = np.load('../data/normal_train_data.npy')
+normal_test_data = np.load('../data/normal_test_data.npy')
+anomalous_train_data = np.load('../data/anomalous_train_data.npy')
+anomalous_test_data = np.load('../data/anomalous_test_data.npy')
+train_data = np.load('../data/train_data.npy')
+test_data = np.load('../data/test_data.npy')
+train_labels = np.load('../data/train_labels.npy')
+test_labels = np.load('../data/test_labels.npy')
 
 
 def min_max_normalize(array):

@@ -24,14 +24,14 @@ qc.decompose().draw("mpl", style="clifford")
 
 from qiskit.primitives import StatevectorSampler as Sampler
 
-normal_train_data = np.load('data/normal_train_data.npy')
-normal_test_data = np.load('data/normal_test_data.npy')
-anomalous_train_data = np.load('data/anomalous_train_data.npy')
-anomalous_test_data = np.load('data/anomalous_test_data.npy')
-train_data = np.load('data/train_data.npy')
-test_data = np.load('data/test_data.npy')
-train_labels = np.load('data/train_labels.npy')
-test_labels = np.load('data/test_labels.npy')
+normal_train_data = np.load('../data/normal_train_data.npy')
+normal_test_data = np.load('../data/normal_test_data.npy')
+anomalous_train_data = np.load('../data/anomalous_train_data.npy')
+anomalous_test_data = np.load('../data/anomalous_test_data.npy')
+train_data = np.load('../data/train_data.npy')
+test_data = np.load('../data/test_data.npy')
+train_labels = np.load('../data/train_labels.npy')
+test_labels = np.load('../data/test_labels.npy')
 
 
 t_d_1 = np.concatenate((normal_train_data[:500],anomalous_train_data[:500]))
